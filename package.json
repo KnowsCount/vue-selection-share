@@ -1,7 +1,7 @@
 {
 	"name": "vue-selection-share",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "a medium-like text highlight sharing component",
 	"main": "dist/vue-selection-share.ssr.js",
 	"browser": "dist/vue-selection-share.esm.js",
