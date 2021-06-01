@@ -28,6 +28,7 @@ to use the component:
 <!-- prettier-ignore-start -->
 ```vue.js
 import VueSelectionShare from 'vue-selection-share';
+Vue.use(VueSelectionShare)
 ```
 <!-- prettier-ignore-end -->
 
