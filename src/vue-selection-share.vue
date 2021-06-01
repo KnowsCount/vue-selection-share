@@ -1,7 +1,7 @@
 <!--
  * @Date: 01/06/2021 16.55.57 +0800
  * @Author: KnowsCount
- * @LastEditTime: 01/06/2021 21.33.53 +0800
+ * @LastEditTime: 02/06/2021 07.23.58 +0800
  * @FilePath: /vue-selection-share/src/vue-selection-share.vue
 -->
 <template>
@@ -48,7 +48,7 @@ export default {
 	},
 	computed: {
 		highlightableEl () {
-		return this.$slots.default[0].elm
+			return this.$slots.default[0].elm
 		}
 	},
 	mounted () {
@@ -75,8 +75,8 @@ export default {
 			// Then
 			// Don't show the menu (this selection is invalid)
 			if (!startNode.isSameNode(this.highlightableEl) || !startNode.isSameNode(endNode)) {
-			this.showMenu = false
-			return
+				this.showMenu = false
+				return
 			}
 
 			// Get the x, y, and width of the selection
@@ -85,8 +85,8 @@ export default {
 			// If width === 0 (i.e. no selection)
 			// Then, hide the menu
 			if (!width) {
-			this.showMenu = false
-			return
+				this.showMenu = false
+				return
 			}
 
 			// Finally, if the selection is valid,
