@@ -1,7 +1,7 @@
 <!--
  * @Date: 01/06/2021 21.20.26 +0800
  * @Author: KnowsCount
- * @LastEditTime: 01/06/2021 21.43.03 +0800
+ * @LastEditTime: 01/06/2021 22.28.24 +0800
  * @FilePath: /vue-selection-share/README.md
 -->
 
@@ -36,13 +36,13 @@ then add `methods` for clicking behaviour, to `onShare` and `onHighlight`:
 <!-- prettier-ignore-start -->
 ```vue.js
 methods: {
-	onShare (text) {
-		console.log('share:', text)
-	},
+    onShare (text) {
+        console.log('share:', text)
+    },
 
-	onHighlight (text) {
-		console.log('highlight:', text)
-	}
+    onHighlight (text) {
+        console.log('highlight:', text)
+    }
 }
 ```
 <!-- prettier-ignore-end -->
