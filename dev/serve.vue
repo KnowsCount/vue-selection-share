@@ -1,7 +1,7 @@
 <!--
  * @Date: 01/06/2021 16.55.57 +0800
  * @Author: KnowsCount
- * @LastEditTime: 01/06/2021 20.23.16 +0800
+ * @LastEditTime: 01/06/2021 21.34.09 +0800
  * @FilePath: /vue-selection-share/dev/serve.vue
 -->
 <script>
@@ -12,6 +12,15 @@ export default Vue.extend({
 	name: 'ServeDev',
 	components: {
 		VueSelectionShare
+	},
+	methods: {
+		onShare (text) {
+			console.log('share:', text)
+		},
+
+		onHighlight (text) {
+			console.log('highlight:', text)
+		}
 	}
 });
 </script>
