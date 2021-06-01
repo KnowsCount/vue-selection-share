@@ -1,7 +1,8 @@
 {
 	"name": "vue-selection-share",
+	"private": false,
 	"version": "1.0.0",
-	"description": "",
+	"description": "a medium-like text highlight sharing component",
 	"main": "dist/vue-selection-share.ssr.js",
 	"browser": "dist/vue-selection-share.esm.js",
 	"module": "dist/vue-selection-share.esm.js",
@@ -10,13 +11,29 @@
 		"dist/*",
 		"src/**/*.vue"
 	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KnowsCount/vue-selection-share.git"
+	},
+	"keywords": [
+		"vuejs",
+		"library",
+		"component",
+		"vue",
+		"vuejs2",
+		"component-library",
+		"lib"
+	],
+	"author": "KnowsCount <knowscount@gmail.com>",
+	"license": "MIT",
 	"sideEffects": false,
 	"scripts": {
 		"serve": "vue-cli-service serve dev/serve.js",
 		"build": "cross-env NODE_ENV=production rollup --config build/rollup.config.js",
 		"build:ssr": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format cjs",
 		"build:es": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format es",
-		"build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife"
+		"build:unpkg": "cross-env NODE_ENV=production rollup --config build/rollup.config.js --format iife",
+		"prepublish": "npm run build"
 	},
 	"dependencies": {},
 	"devDependencies": {
