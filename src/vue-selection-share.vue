@@ -1,14 +1,14 @@
 <!--
  * @Date: 01/06/2021 16.55.57 +0800
  * @Author: KnowsCount
- * @LastEditTime: 02/06/2021 10.37.52 +0800
+ * @LastEditTime: 02/06/2021 18.44.24 +0800
  * @FilePath: /vue-selection-share/src/vue-selection-share.vue
 -->
 <template>
 		<div>
 		<div
 			v-show="showMenu"
-			class="menu"
+			class="popover"
 			:style="{
 				left: `${x}px`,
 				top: `${y}px`
@@ -27,10 +27,10 @@
 			>
 				Highlight
 			</span>
-			<!-- You can add more buttons here -->
+			<!-- more buttons here -->
 		</div>
 
-		<!-- The insterted text should be displayed here -->
+		<!-- insterted text is displayed here -->
 		<slot />
 	</div>
 </template>
@@ -106,7 +106,7 @@ export default {
 </script>
 
 <style>
-.menu {
+.popover {
 	height: 30px;
 	padding: 5px 10px;
 	background: #333;
@@ -121,7 +121,7 @@ export default {
 	align-items: center;
 }
 
-.menu:after {
+.popover:after {
 	content: '';
 	position: absolute;
 	left: 50%;
@@ -135,11 +135,13 @@ export default {
 }
 
 .item {
+	/* text (or icon) color before hovering */
 	color: #FFF;
 	cursor: pointer;
 }
 
 .item:hover {
+	/* text (or icon) hover color */
 	color: #ff69b4;
 }
 
