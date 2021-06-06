@@ -1,7 +1,7 @@
 <!--
  * @Date: 01/06/2021 16.55.57 +0800
  * @Author: KnowsCount
- * @LastEditTime: 02/06/2021 07.23.39 +0800
+ * @LastEditTime: 06/06/2021 19.51.06 +0800
  * @FilePath: /vue-selection-share/dev/serve.vue
 -->
 <script>
@@ -32,7 +32,7 @@ export default Vue.extend({
 			@highlight="onHighlight"
 		>
 		<p>mother of god</p>
-		</VueSelectionShare >
+		</VueSelectionShare>
 	</div>
 </template>
 
