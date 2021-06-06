@@ -5,7 +5,7 @@
  * @FilePath: /vue-selection-share/src/vue-selection-share.vue
 -->
 <template>
-		<div>
+	<div>
 		<div
 			v-show="showMenu"
 			class="popover"
