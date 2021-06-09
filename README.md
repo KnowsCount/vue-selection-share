@@ -1,15 +1,15 @@
 <!--
  * @Date: 01/06/2021 21.20.26 +0800
  * @Author: KnowsCount
- * @LastEditTime: 09/06/2021 15.05.16 +0800
+ * @LastEditTime: 10/06/2021 07.41.14 +0800
  * @FilePath: /vue-selection-share/README.md
 -->
 
 # vue-selection-share
 
-> a medium-like text highlight sharing component
+> a medium-like text highlight sharing component with zero dependencies.
 
-click [this](https://juejin.cn/post/6970687166145904654) to read a tutorial on creating such component, in chinese.
+to learn how I created this, click [this](https://juejin.cn/post/6970687166145904654) to read a chinese tutorial.
 
 ![](https://knowscount-1304485449.cos.ap-shanghai.myqcloud.com/img/Screenshot%202021-06-01%20at%2021.21.11.png)
 

@@ -2,7 +2,7 @@
 	"name": "vue-selection-share",
 	"private": false,
 	"version": "1.3.8",
-	"description": "a medium-like text highlight sharing component",
+	"description": "a medium-like text highlight sharing component with zero dependencies.",
 	"main": "dist/vue-selection-share.ssr.js",
 	"browser": "dist/vue-selection-share.esm.js",
 	"module": "dist/vue-selection-share.esm.js",
@@ -22,7 +22,8 @@
 		"vue",
 		"vuejs2",
 		"component-library",
-		"lib"
+		"lib",
+		"rollup"
 	],
 	"author": "KnowsCount <knowscount@gmail.com>",
 	"license": "WTFPL",
