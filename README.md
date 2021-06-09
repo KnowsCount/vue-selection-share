@@ -1,7 +1,7 @@
 <!--
  * @Date: 01/06/2021 21.20.26 +0800
  * @Author: KnowsCount
- * @LastEditTime: 07/06/2021 10.50.53 +0800
+ * @LastEditTime: 09/06/2021 15.05.16 +0800
  * @FilePath: /vue-selection-share/README.md
 -->
 
@@ -34,7 +34,17 @@ Vue.use(VueSelectionShare)
 ```
 <!-- prettier-ignore-end -->
 
-then add `methods` for clicking behaviour, to `onShare` and `onHighlight`:
+then add the component outside of the elements that needs the popover, and the clicking behaviours:
+
+<!-- prettier-ignore-start -->
+```vue.js
+<VueSelectionShare @share="onShare" @highlight="onHighlight">
+    <p>mother of god</p>
+</VueSelectionShare>
+```
+<!-- prettier-ignore-end -->
+
+lastly add the `methods`, to `onShare` and `onHighlight`:
 
 <!-- prettier-ignore-start -->
 ```vue.js
