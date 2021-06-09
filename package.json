@@ -25,7 +25,7 @@
 		"lib"
 	],
 	"author": "KnowsCount <knowscount@gmail.com>",
-	"license": "MIT",
+	"license": "WTFPL",
 	"sideEffects": false,
 	"scripts": {
 		"serve": "vue-cli-service serve dev/serve.js",
