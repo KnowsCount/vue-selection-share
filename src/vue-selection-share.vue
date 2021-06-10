@@ -1,7 +1,7 @@
 <!--
  * @Date: 01/06/2021 16.55.57 +0800
  * @Author: KnowsCount
- * @LastEditTime: 09/06/2021 10.48.39 +0800
+ * @LastEditTime: 11/06/2021 07.44.15 +0800
  * @FilePath: /vue-selection-share/src/vue-selection-share.vue
 -->
 <template>
@@ -119,6 +119,7 @@ export default {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	/* opacity */
 	opacity: 0.9;
 }
 
